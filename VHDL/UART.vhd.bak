@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity UART is
+	port (Rx : in std_logic;
+			RTS : in std_logic;
+			LED : out std_logic);
+end UART;
+
+architecture behavioral of UART is
+begin
+	LED <= SW;
+end behavioral;
