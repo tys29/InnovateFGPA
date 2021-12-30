@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Dec 23 21:20:23 2021
+Analysis & Synthesis Status : Successful - Wed Dec 29 23:21:23 2021
 Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 Revision Name : InnovateFPGA
 Top-level Entity Name : InnovateFPGA
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 2
+Total pins : 6
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

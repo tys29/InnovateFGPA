@@ -1,5 +1,18 @@
 |InnovateFPGA
-SW => LED.DATAIN
-LED << SW.DB_MAX_OUTPUT_PORT_TYPE
+clk => UART:U1.clk
+reset => UART:U1.reset
+Rx_sensor => UART:U1.Rx
+RTS_sensor => UART:U1.RTS
+Tx_sensor << UART:U1.Tx
+CTS_sensor << UART:U1.CTS
+
+
+|InnovateFPGA|UART:U1
+Rx => ~NO_FANOUT~
+RTS => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+reset => ~NO_FANOUT~
+Tx <= <VCC>
+CTS <= <VCC>
 
 
