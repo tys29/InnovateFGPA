@@ -1,11 +1,14 @@
 vendor_name = ModelSim
+source_file = 1, D:/Git/InnovateFGPA/VHDL/NBitRegister_tb.vhd
+source_file = 1, D:/Git/InnovateFGPA/VHDL/NBitRegister.vhd
 source_file = 1, D:/Git/InnovateFGPA/VHDL/InnovateFPGA.vhd
+source_file = 1, D:/Git/InnovateFGPA/VHDL/UART.vhd
 source_file = 1, c:/intelfpga_lite/21.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/intelfpga_lite/21.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/intelfpga_lite/21.1/quartus/libraries/vhdl/ieee/timing_b.vhd
 source_file = 1, c:/intelfpga_lite/21.1/quartus/libraries/vhdl/ieee/timing_p.vhd
 source_file = 1, D:/Git/InnovateFGPA/VHDL/db/InnovateFPGA.cbx.xml
 design_name = InnovateFPGA
-instance = comp, \LED~output , LED~output, InnovateFPGA, 1
-instance = comp, \SW~input , SW~input, InnovateFPGA, 1
-instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, InnovateFPGA, 1
+instance = comp, \LED~output\, LED~output, InnovateFPGA, 1
+instance = comp, \SW~input\, SW~input, InnovateFPGA, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, InnovateFPGA, 1
